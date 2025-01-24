@@ -2,7 +2,7 @@
 
 
 
-# create key-pair locally named lab3-key
+# create key-pair locally named bcitkey with manual passphrase
 ssh-keygen -t ed25519 -f $HOME/.ssh/bcitkey -C "bcitkey"
 
 # import the key-pair to aws
