@@ -1,6 +1,6 @@
 # lab-week3-aws-cli
 
-# Script 1
+## Script 1
 Source: [AWS Create Key Pairs Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html#how-to-generate-your-own-key-and-import-it-to-aws)
 
 Subcommands:

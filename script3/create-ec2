@@ -28,7 +28,8 @@ aws ec2 authorize-security-group-ingress --group-id $security_group_id \
 
 # Launch an EC2 instance in the public subnet
 # COMPLETE THIS PART
-instance_id=$subnet_id
+aws ec2 create-instance
+instance_id=
 
 # wait for ec2 instance to be running
 aws ec2 wait instance-running --instance-ids $instance_id
